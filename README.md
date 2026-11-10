@@ -1,6 +1,6 @@
 # Baseball-Pitching-Final-Project
 
-The data folder sotres data for the project, which was downloaded as CSVs from Baseball Savant.
+The data folder stores data for the project, which was downloaded as CSVs from Baseball Savant.
 
 The derived folder holds our combined and cleaned data in one csv file.
 
