@@ -1,6 +1,6 @@
 # Fast and Furious: Analyzing MLB Pitch Movement and Performance
 
-**Lincoln Hamid, Cyrus Kiely, Dashua Ough** (QSS Final Project, Dartmouth College)
+**Lincoln Hamid, Cyrus Kiely, Dashua Ough** 
 
 This project studies pitch movement in Major League Baseball to better visualize and understand why certain pitches are more effective than others. With Hawk-Eye tracking cameras now installed in every MLB stadium, pitch traits are measured on every pitch with a high level of precision. The data and the nuance of pitch dynamics raise the question this project focuses on: **which measurable traits actually make a pitch effective, and how much do they matter?**
 
