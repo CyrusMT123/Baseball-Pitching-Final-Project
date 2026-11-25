@@ -33,7 +33,7 @@ Baseball-Pitching-Final-Project/
 ├── CombiningData.ipynb
 ├── Visualizations.ipynb
 ├── pitcher_similarity_plus_pitch_prediction.ipynb
-├── FINAL_ANALYSIS_CYRUS.ipynb
+├── pitcher_uniqueness.ipynb
 ├── Regressions.ipynb
 └── README.md
 ```
@@ -85,7 +85,7 @@ Creates a short-form movement profile for each pitcher-season, plotting each pit
 **Outputs:** `visualizations/<Pitcher> <Year>.png`
 
 ### 3. Pitch Uniqueness (k-Nearest Neighbors)
-**Notebook:** `FINAL_ANALYSIS_CYRUS.ipynb`
+**Notebook:** `pitcher_uniqueness.ipynb`
 
 1. Standardize four traits so that each one carries the same weight: horizontal movement, vertical movement, arm angle at release, and velocity. Without this step, velocity would greatly outweigh the others.
 2. Compute the Euclidean distance between pitches' standardized vectors, measured in standard deviations.
@@ -159,7 +159,7 @@ Run the notebooks from the repository root in this order:
 |---|---|---|
 | 1 | `CombiningData.ipynb` | Merges the raw Savant CSVs into `derived/data24-26.csv` |
 | 2 | `Visualizations.ipynb` | Movement profiles and release-trait plots |
-| 3 | `FINAL_ANALYSIS_CYRUS.ipynb` | k-NN pitch uniqueness |
+| 3 | `pitcher_uniqueness.ipynb` | k-NN pitch uniqueness |
 | 4 | `Regressions.ipynb` | Whiff-rate regressions and coefficient plots |
 | 5 | `pitcher_similarity_plus_pitch_prediction.ipynb` | Pitcher similarity and the pitch-type neural network |
 
